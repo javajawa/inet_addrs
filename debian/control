@@ -1,0 +1,10 @@
+Source: inet-addrs
+Package: inet-addrs
+Section: admin
+Priority: optional
+Architecture: amd64
+Build-Depends: c-compiler | gcc, make
+Depends: libc6
+Essential: no
+Maintainer: Benedict Harcourt <packages@tea-cats.co.uk>
+Description: Lightweight tool for printing current IP addresses
